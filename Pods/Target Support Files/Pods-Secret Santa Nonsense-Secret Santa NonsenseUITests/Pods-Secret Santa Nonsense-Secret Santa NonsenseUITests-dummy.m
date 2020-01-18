@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Secret_Santa_Nonsense_Secret_Santa_NonsenseUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Secret_Santa_Nonsense_Secret_Santa_NonsenseUITests
+@end

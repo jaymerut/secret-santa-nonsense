@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Masonry
+  - SWRevealViewController
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SWRevealViewController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: aa14c41bf4c34ec9c2660a5f44208f12b30e1bf1
+
+COCOAPODS: 1.8.4
