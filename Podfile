@@ -8,6 +8,7 @@ target 'Secret Santa Nonsense' do
   # Pods for Secret Santa Nonsense
   pod 'SWRevealViewController'
   pod 'Masonry'
+  pod 'IGListKit', '3.0'
 
   target 'Secret Santa NonsenseTests' do
     inherit! :search_paths

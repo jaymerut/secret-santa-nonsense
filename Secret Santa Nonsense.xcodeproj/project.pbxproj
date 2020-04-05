@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		500D41534EB42241E27A04B5 /* Pods_Secret_Santa_Nonsense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE008FE5DA99D116381230 /* Pods_Secret_Santa_Nonsense.framework */; };
 		7365AC49213632F0DCF04DEE /* Pods_Secret_Santa_Nonsense_Secret_Santa_NonsenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF401D44B8BAB91D2F1B2CF3 /* Pods_Secret_Santa_Nonsense_Secret_Santa_NonsenseUITests.framework */; };
+		96790B79243A1C330005BF59 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96790B78243A1C330005BF59 /* BaseViewController.m */; };
+		96790B7C243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96790B7B243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.m */; };
+		96790B7F243A2B090005BF59 /* HomeShopCategoryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 96790B7E243A2B090005BF59 /* HomeShopCategoryCollection.m */; };
+		96790B82243A2B240005BF59 /* HomeShopCategorySectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96790B81243A2B240005BF59 /* HomeShopCategorySectionController.m */; };
+		968EA50D2434269400286892 /* HomeGroupListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA50C2434269400286892 /* HomeGroupListSectionController.m */; };
+		968EA511243428C100286892 /* HomeGroupListCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA510243428C100286892 /* HomeGroupListCollection.m */; };
+		968EA51624342A2200286892 /* IGListDiffableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA51524342A2200286892 /* IGListDiffableArray.m */; };
+		968EA51B24342CC100286892 /* HomeGroupListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA51A24342CC100286892 /* HomeGroupListCollectionViewCell.m */; };
+		968EA51E24342E0800286892 /* SecretSantaGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA51D24342E0800286892 /* SecretSantaGroup.m */; };
 		9693B48823D298790037C38A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9693B48723D298790037C38A /* AppDelegate.m */; };
 		9693B49323D2987D0037C38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9693B49223D2987D0037C38A /* Assets.xcassets */; };
 		9693B49923D2987D0037C38A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9693B49823D2987D0037C38A /* main.m */; };
@@ -44,6 +53,26 @@
 /* Begin PBXFileReference section */
 		03FE008FE5DA99D116381230 /* Pods_Secret_Santa_Nonsense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secret_Santa_Nonsense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E512B3D0DA2C9A5F9AEB2B5 /* Pods_Secret_Santa_NonsenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secret_Santa_NonsenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96790B77243A1C330005BF59 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		96790B78243A1C330005BF59 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		96790B7A243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeShopCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		96790B7B243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeShopCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		96790B7D243A2B090005BF59 /* HomeShopCategoryCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeShopCategoryCollection.h; sourceTree = "<group>"; };
+		96790B7E243A2B090005BF59 /* HomeShopCategoryCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeShopCategoryCollection.m; sourceTree = "<group>"; };
+		96790B80243A2B240005BF59 /* HomeShopCategorySectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeShopCategorySectionController.h; sourceTree = "<group>"; };
+		96790B81243A2B240005BF59 /* HomeShopCategorySectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeShopCategorySectionController.m; sourceTree = "<group>"; };
+		96790B83243A2B4D0005BF59 /* HomeShopCategorySectionControllerDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeShopCategorySectionControllerDelegateProtocol.h; sourceTree = "<group>"; };
+		968EA50B2434269400286892 /* HomeGroupListSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeGroupListSectionController.h; sourceTree = "<group>"; };
+		968EA50C2434269400286892 /* HomeGroupListSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeGroupListSectionController.m; sourceTree = "<group>"; };
+		968EA50E243426BC00286892 /* HomeGroupListSectionControllerDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeGroupListSectionControllerDelegateProtocol.h; sourceTree = "<group>"; };
+		968EA50F243428C100286892 /* HomeGroupListCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeGroupListCollection.h; sourceTree = "<group>"; };
+		968EA510243428C100286892 /* HomeGroupListCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeGroupListCollection.m; sourceTree = "<group>"; };
+		968EA51424342A2200286892 /* IGListDiffableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IGListDiffableArray.h; path = "Secret Santa Nonsense/Views/IGListDiffableArray.h"; sourceTree = SOURCE_ROOT; };
+		968EA51524342A2200286892 /* IGListDiffableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IGListDiffableArray.m; path = "Secret Santa Nonsense/Views/IGListDiffableArray.m"; sourceTree = SOURCE_ROOT; };
+		968EA51924342CC100286892 /* HomeGroupListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeGroupListCollectionViewCell.h; sourceTree = "<group>"; };
+		968EA51A24342CC100286892 /* HomeGroupListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeGroupListCollectionViewCell.m; sourceTree = "<group>"; };
+		968EA51C24342E0800286892 /* SecretSantaGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SecretSantaGroup.h; path = "Secret Santa Nonsense/Views/UICollectionViewCell/SecretSantaGroup.h"; sourceTree = SOURCE_ROOT; };
+		968EA51D24342E0800286892 /* SecretSantaGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SecretSantaGroup.m; path = "Secret Santa Nonsense/Views/UICollectionViewCell/SecretSantaGroup.m"; sourceTree = SOURCE_ROOT; };
 		9693B48323D298790037C38A /* Secret Santa Nonsense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Santa Nonsense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9693B48623D298790037C38A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9693B48723D298790037C38A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +145,101 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		96790B76243A1C1F0005BF59 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96790B77243A1C330005BF59 /* BaseViewController.h */,
+				96790B78243A1C330005BF59 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		968EA5062434256400286892 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				968EA5082434257100286892 /* Helpers */,
+				968EA5072434256B00286892 /* Controllers */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		968EA5072434256B00286892 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				968EA5092434258600286892 /* SectionControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		968EA5082434257100286892 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		968EA5092434258600286892 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				968EA50A2434259E00286892 /* Home */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		968EA50A2434259E00286892 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				968EA50B2434269400286892 /* HomeGroupListSectionController.h */,
+				968EA50C2434269400286892 /* HomeGroupListSectionController.m */,
+				968EA50E243426BC00286892 /* HomeGroupListSectionControllerDelegateProtocol.h */,
+				96790B80243A2B240005BF59 /* HomeShopCategorySectionController.h */,
+				96790B81243A2B240005BF59 /* HomeShopCategorySectionController.m */,
+				96790B83243A2B4D0005BF59 /* HomeShopCategorySectionControllerDelegateProtocol.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		968EA512243429FB00286892 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				968EA513243429FF00286892 /* Local */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		968EA513243429FF00286892 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				968EA51424342A2200286892 /* IGListDiffableArray.h */,
+				968EA51524342A2200286892 /* IGListDiffableArray.m */,
+				968EA51C24342E0800286892 /* SecretSantaGroup.h */,
+				968EA51D24342E0800286892 /* SecretSantaGroup.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		968EA51724342C9400286892 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				968EA50F243428C100286892 /* HomeGroupListCollection.h */,
+				968EA510243428C100286892 /* HomeGroupListCollection.m */,
+				96790B7D243A2B090005BF59 /* HomeShopCategoryCollection.h */,
+				96790B7E243A2B090005BF59 /* HomeShopCategoryCollection.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		968EA51824342C9C00286892 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				968EA51924342CC100286892 /* HomeGroupListCollectionViewCell.h */,
+				968EA51A24342CC100286892 /* HomeGroupListCollectionViewCell.m */,
+				96790B7A243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.h */,
+				96790B7B243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
 		9693B47A23D298790037C38A = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +265,9 @@
 		9693B48523D298790037C38A /* Secret Santa Nonsense */ = {
 			isa = PBXGroup;
 			children = (
+				968EA512243429FB00286892 /* Models */,
+				968EA5062434256400286892 /* Categories */,
 				9693B4BD23D29BC40037C38A /* Classes */,
-				9693B4BE23D29BCB0037C38A /* Models */,
 				9693B4C123D29BDC0037C38A /* Views */,
 				9693B4BC23D29BBD0037C38A /* ViewControllers */,
 				9693B4C023D29BD80037C38A /* Resources */,
@@ -182,16 +307,12 @@
 		9693B4BC23D29BBD0037C38A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9693B4C723D2A7DA0037C38A /* MainMenuViewController.h */,
-				9693B4C823D2A7DA0037C38A /* MainMenuViewController.m */,
-				9693B4CD23D2BD550037C38A /* SideMenuViewController.h */,
-				9693B4CE23D2BD550037C38A /* SideMenuViewController.m */,
-				9693B4D423D38A2C0037C38A /* GiftExchangesViewController.h */,
-				9693B4D523D38A2C0037C38A /* GiftExchangesViewController.m */,
-				9693B4D723D3AF120037C38A /* WishListViewController.h */,
-				9693B4D823D3AF120037C38A /* WishListViewController.m */,
-				9693B4DA23D3B3EB0037C38A /* AccountViewController.h */,
-				9693B4DB23D3B3EB0037C38A /* AccountViewController.m */,
+				96790B76243A1C1F0005BF59 /* Base */,
+				9693B4E223D3BE460037C38A /* Account */,
+				9693B4E123D3BE3B0037C38A /* Wish List */,
+				9693B4E023D3BE320037C38A /* Gift Exchanges */,
+				9693B4DF23D3BE2B0037C38A /* Side Menu */,
+				9693B4DE23D3BE1D0037C38A /* Main Menu */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,13 +323,6 @@
 				9693B4D023D3574F0037C38A /* Custom Categories */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		9693B4BE23D29BCB0037C38A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		9693B4BF23D29BD00037C38A /* Network */ = {
@@ -231,6 +345,8 @@
 		9693B4C123D29BDC0037C38A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				968EA51824342C9C00286892 /* UICollectionViewCell */,
+				968EA51724342C9400286892 /* UIView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +383,51 @@
 				9693B4D223D357A70037C38A /* UIColor+ExtensionMethods.m */,
 			);
 			path = "Custom Categories";
+			sourceTree = "<group>";
+		};
+		9693B4DE23D3BE1D0037C38A /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9693B4C723D2A7DA0037C38A /* MainMenuViewController.h */,
+				9693B4C823D2A7DA0037C38A /* MainMenuViewController.m */,
+			);
+			path = "Main Menu";
+			sourceTree = "<group>";
+		};
+		9693B4DF23D3BE2B0037C38A /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9693B4CD23D2BD550037C38A /* SideMenuViewController.h */,
+				9693B4CE23D2BD550037C38A /* SideMenuViewController.m */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		9693B4E023D3BE320037C38A /* Gift Exchanges */ = {
+			isa = PBXGroup;
+			children = (
+				9693B4D423D38A2C0037C38A /* GiftExchangesViewController.h */,
+				9693B4D523D38A2C0037C38A /* GiftExchangesViewController.m */,
+			);
+			path = "Gift Exchanges";
+			sourceTree = "<group>";
+		};
+		9693B4E123D3BE3B0037C38A /* Wish List */ = {
+			isa = PBXGroup;
+			children = (
+				9693B4D723D3AF120037C38A /* WishListViewController.h */,
+				9693B4D823D3AF120037C38A /* WishListViewController.m */,
+			);
+			path = "Wish List";
+			sourceTree = "<group>";
+		};
+		9693B4E223D3BE460037C38A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9693B4DA23D3B3EB0037C38A /* AccountViewController.h */,
+				9693B4DB23D3B3EB0037C38A /* AccountViewController.m */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		C0D66834E6973B91CAF73787 /* Pods */ = {
@@ -519,14 +680,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968EA51E24342E0800286892 /* SecretSantaGroup.m in Sources */,
 				9693B4CF23D2BD550037C38A /* SideMenuViewController.m in Sources */,
 				9693B4D623D38A2C0037C38A /* GiftExchangesViewController.m in Sources */,
+				96790B82243A2B240005BF59 /* HomeShopCategorySectionController.m in Sources */,
 				9693B48823D298790037C38A /* AppDelegate.m in Sources */,
+				96790B7F243A2B090005BF59 /* HomeShopCategoryCollection.m in Sources */,
 				9693B4D923D3AF120037C38A /* WishListViewController.m in Sources */,
+				96790B79243A1C330005BF59 /* BaseViewController.m in Sources */,
+				968EA51624342A2200286892 /* IGListDiffableArray.m in Sources */,
+				96790B7C243A2ADA0005BF59 /* HomeShopCategoryCollectionViewCell.m in Sources */,
+				968EA50D2434269400286892 /* HomeGroupListSectionController.m in Sources */,
 				9693B4D323D357A70037C38A /* UIColor+ExtensionMethods.m in Sources */,
+				968EA511243428C100286892 /* HomeGroupListCollection.m in Sources */,
 				9693B4C923D2A7DA0037C38A /* MainMenuViewController.m in Sources */,
 				9693B4DC23D3B3EB0037C38A /* AccountViewController.m in Sources */,
 				9693B49923D2987D0037C38A /* main.m in Sources */,
+				968EA51B24342CC100286892 /* HomeGroupListCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
