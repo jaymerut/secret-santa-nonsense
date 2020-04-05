@@ -285,7 +285,7 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:newFrontController];
     [revealController pushFrontViewController:navigationController animated:YES];
     [revealController setFrontViewPosition:FrontViewPositionLeft animated:YES];
-}ds
+}
 
 
 #pragma mark - Public API
